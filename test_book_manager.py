@@ -31,5 +31,5 @@ class TestBookManager(unittest.TestCase):
         self.assertEqual(len(books), 1)
         self.assertIn(self.book1, books)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
